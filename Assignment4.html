@@ -1,0 +1,39 @@
+<html>
+        <head>
+            <title>Community joining form</title>
+            <link rel="stylesheet" type="text/css"   href="Assignment4.css" >
+        </head>
+        <body align="center" >
+            <img src="C:\Users\dell\Desktop\letsupgrade.png" class="center" width="300" height="200">
+            <form>
+                <p><b>USERNAME</b></p>
+                <input type="text"name="USERNAME"placeholder="USERNAME"required/>
+                 <p><b>GENDER</b></p>
+                 <input type="radio" name="rbdGENDER" id="rdbGENDER" value="m"  />MALE
+                 <input type="radio" name="rbdGENDER" id="rdbGENDER" value="f" />FEMALE
+                 <input type="radio" name="rbdGENDER" id="rdbGENDER" value="o" />Not prefer to say
+                 <p><b>EMAIL</b></p>
+                <input type="EMAIL"name="EMAIL"placeholder="ENTER YOUR EMAIL"required>
+                <p><b>PASSWORD</b></p>
+                 <input type="password"name="PASSWORD"placeholder="ENTER YOUR PASSWORD"pattern=".{5,10}" required title="please enter password">
+                 <p><b> CONFIRM PASSWORD</b></p>
+                 <input type="password"name="CONFIRMPASSWORD"placeholder="CONFIRM YOUR PASSWORD"pattern=".{5,10}" required title="please confirm enter password">
+                <br>
+                <br>
+                <label for=""><b>BIRTHDAY</b>:  <input type="date"></label> <br>
+                <p><b>WHICH COMMUNITY DO YOU WANT TO JOIN?</b></p>
+                <div class="select">
+                    <select name="language" id="lang">
+                        <option value="html">HTML & CSS</option>
+                        <option value="python">Python</option>
+                        <option value="java">Java</option>
+                        <option value="css">Data Science</option>
+                        <option value="php">PHP</option>
+                    </select>
+                </div><br>
+              <input type="SUBMIT" value ="SUBMIT">
+    
+        </form>
+
+    </body>
+</html>
